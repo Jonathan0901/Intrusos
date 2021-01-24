@@ -10,7 +10,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-composer require joan/intrusos "dev-master"aaaa
+composer require joan/intrusos "dev-master"
 ```
 
 or add
