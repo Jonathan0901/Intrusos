@@ -1,6 +1,6 @@
-Intrusos
+Intrusion Detection
 ========
-Estadísticas de inicio de sesión de usuarios, detención de usuarios
+User login statistics, intrusion detection.
 
 Installation
 ------------
@@ -10,7 +10,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require joan/intrusos "dev-master"
+composer require joan/intrusos "dev-master"
 ```
 
 or add
@@ -37,8 +37,8 @@ Once the extension is installed, simply use it in your code by  :
 ],
 ```
 
-Run Migration:
+2. Run Migration:
 
-```php
-'php yii migrate --migrationPath=vendor/joan/intrusos/migrations/'
+```
+php yii migrate --migrationPath=vendor/joan/intrusos/migrations/
 ```
