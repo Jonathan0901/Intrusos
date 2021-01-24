@@ -1,0 +1,21 @@
+{
+    "name": "joan/intrusos",
+    "description": "Estadísticas de inicio de sesión de usuarios, detención de usuarios",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","usuarios","intrusos"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "JoAn",
+            "email": "JoAn@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "joan\\intrusos\\": ""
+        }
+    }
+}
