@@ -10,7 +10,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist joan/intrusos "*"
+php composer.phar require joan/intrusos "dev-master"
 ```
 
 or add
@@ -27,7 +27,7 @@ Usage
 
 Once the extension is installed, simply use it in your code by  :
 
-Agregar: 
+Add in /config/web.php: 
 
 ```php
 'modules'=>[
@@ -35,4 +35,11 @@ Agregar:
       'class' => 'app\vendor\joan\intrusos\Module',
    ],
 ],
+```
+
+Migration:
+
+```php
+
+
 ```
