@@ -27,7 +27,7 @@ Usage
 
 Once the extension is installed, simply use it in your code by  :
 
-1. In your config/web.php: 
+1.- In your config/web.php: 
 
 ```php
 'modules'=>[
@@ -37,7 +37,7 @@ Once the extension is installed, simply use it in your code by  :
 ],
 ```
 
-2. Run Migration:
+2.- Run Migration:
 
 ```
 php yii migrate --migrationPath=vendor/joan/intrusos/migrations/
