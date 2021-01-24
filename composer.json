@@ -1,8 +1,8 @@
 {
     "name": "joan/intrusos",
-    "description": "Estadísticas de inicio de sesión de usuarios, detención de usuarios",
+    "description": "User login statistics, intrusion detection",
     "type": "yii2-extension",
-    "keywords": ["yii2","extension","usuarios","intrusos"],
+    "keywords": ["yii2","extension","users","intrusion","detection"],
     "license": "MIT",
     "authors": [
         {
